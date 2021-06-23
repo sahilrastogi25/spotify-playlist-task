@@ -1,0 +1,19 @@
+.card {
+  padding: 20px;
+  position: relative;
+  color: white;
+  margin-bottom: 15px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+  border-radius: 6px;
+  background: rgba(6, 196, 47, 0.473);
+  max-width: 45%;
+}
+.left {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+}
+.card:hover {
+  cursor: pointer;
+  transform: translate(1px, 3px);
+}
